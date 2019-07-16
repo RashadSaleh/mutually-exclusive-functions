@@ -1,0 +1,25 @@
+{
+  "name": "mutually-exclusive-functions",
+  "version": "1.0.0",
+  "description": "Mutually exclusive execution of your JavaScript functions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RashadSaleh/mutually-exclusive-functions.git"
+  },
+  "keywords": [
+    "mutex",
+    "race",
+    "conditions",
+    "locking"
+  ],
+  "author": "Rashad Saleh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RashadSaleh/mutually-exclusive-functions/issues"
+  },
+  "homepage": "https://github.com/RashadSaleh/mutually-exclusive-functions#readme"
+}
