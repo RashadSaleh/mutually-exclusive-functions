@@ -11,7 +11,7 @@ module.exports = function exclude (functions) {
                 
                 if (args.includes(pass)) return target.apply(that, args);
 
-                x = new Promise(async (resolve, reject) => {
+                let x = new Promise(async (resolve, reject) => {
                     await queue[queue.length-1];
                     queue.shift();
                     return resolve(target.apply(that, args));
