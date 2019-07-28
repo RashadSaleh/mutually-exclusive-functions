@@ -18,7 +18,7 @@ let resource = 0;
 async function f() {
   let snapshot = resource;
   
-  await mockAsyncOperation({seconds: 1});
+  await mockAsyncOperation();
   
   if (snapshot !== resource) {
     throw new Error("race condition");
