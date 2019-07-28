@@ -117,7 +117,7 @@ the versions of f1, f2, and f3 returned will execute in a mutually exclusive way
 | export | in | desc | out | desc |
 |-|-|-|-|-|
 | exclude | `[Function]` | The functions to be excluded. | `[Function]` | The excluded version of the functions, ordered the same as in `in`.
-| unexclude | `Function || [Function]` | The excluded function(s) to be reverted to its(their) state before the last exclude was applied. | `Function || [Function]` | The unexcluded (or reverted) version of the function(s) (ordered the same as in `in`).
+| unexclude | `Function \|\| [Function]` | The excluded function(s) to be reverted to its(their) state before the last exclude was applied. | `Function \|\| [Function]` | The unexcluded (or reverted) version of the function(s) (ordered the same as in `in`).
 
 
 ## Notes
