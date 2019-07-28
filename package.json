@@ -15,7 +15,7 @@
     "race condition",
     "locking"
   ],
-  "author": "Rashad Saleh <rashad.saleh@gmail.com> (https://rashad.io/)"
+  "author": "Rashad Saleh <rashad.saleh@gmail.com> (https://rashad.io/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/RashadSaleh/mutually-exclusive-functions/issues"
