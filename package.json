@@ -1,6 +1,6 @@
 {
   "name": "mutually-exclusive-functions",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Mutually exclusive execution of your JavaScript functions.",
   "main": "index.js",
   "scripts": {
