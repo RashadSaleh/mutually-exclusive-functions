@@ -12,8 +12,7 @@
   },
   "keywords": [
     "mutex",
-    "race",
-    "conditions",
+    "race condition",
     "locking"
   ],
   "author": "Rashad Saleh <rashad.saleh@gmail.com> (https://rashad.io/)"
