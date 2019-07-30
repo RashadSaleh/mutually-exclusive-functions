@@ -3,6 +3,8 @@ Mutually exclusive execution of your JavaScript functions.
 
 ## Why?
 
+>*Please note that all these examples are for illustration of concepts and functionality only, and not provided as valid use cases. You have to come up with your own use cases.*
+
 Consider the following situation:
 
 ```js
@@ -52,7 +54,7 @@ and this "interleaving" of code can lead to race conditions, as seen before.
 
 Furthermore, it is impractical (and frequently impossible) to predict what code is going to execute at that window.
 
-Consider a more real-world example:
+Consider another example:
 
 ```js
 
@@ -83,7 +85,7 @@ dec writes 0
 and this is not what we wanted to happen.
 
 
-In these cases, it can be the solution to make sure that competing functions execute one at a time, or what can be called *mutually exclusive execution of the functions*. This is the solution offered by this package.
+In these cases, it *might* be the solution to make sure that competing functions execute one at a time, or what can be called *mutually exclusive execution of the functions*. This is the solution offered by this package.
 
 
 
