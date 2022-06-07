@@ -20,8 +20,5 @@
   "bugs": {
     "url": "https://github.com/RashadSaleh/mutually-exclusive-functions/issues"
   },
-  "homepage": "https://github.com/RashadSaleh/mutually-exclusive-functions#readme",
-  "devDependencies": {
-    "jest": "^24.8.0"
-  }
+  "homepage": "https://github.com/RashadSaleh/mutually-exclusive-functions#readme"
 }
